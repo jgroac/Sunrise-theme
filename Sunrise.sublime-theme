@@ -188,17 +188,17 @@
     },
     {
         "class": "tab_label",
-        "settings": ["sunrize_tabs_font_small"],
+        "settings": ["sunrise_tabs_font_small"],
         "font.size": 10.0
     },
     {
         "class": "tab_label",
-        "settings": ["sunrize_tabs_font_normal"],
+        "settings": ["sunrise_tabs_font_normal"],
         "font.size": 12.0
     },
     {
         "class": "tab_label",
-        "settings": ["sunrize_tabs_font_large"],
+        "settings": ["sunrise_tabs_font_large"],
         "font.size": 14.0
     },
 
@@ -527,12 +527,12 @@
     // options sidebar
     {
         "class": "sidebar_tree",
-        "settings": ["Sunrise_sidebar_small_padding"],
+        "settings": ["sunrise_sidebar_small_padding"],
         "row_padding": [8,3]
     },
     {
         "class": "sidebar_tree",
-        "settings": ["Sunrise_sidebar_big_padding"],
+        "settings": ["sunrise_sidebar_big_padding"],
         "row_padding": [8,10]
     },
 

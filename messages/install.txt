@@ -1,1 +1,22 @@
-Welcome to Sunrise Theme
+Sunrise Theme for Sublime Text 3
+
+For more information on the Material Theme: https://github.com/jgroac/Sunrise-theme
+
+==============================================================================================
+
+Add the following to your Settings - User file and restart Sublime Text after:
+
+{
+  "theme": "Sunrise.sublime-theme",
+  "color_scheme":"Packages/Sunrise/Schemes/Sunrise.tmTheme",
+}
+
+==============================================================================================
+
+Other available theme options:
+
+"sunrise_sidebar_small_padding"           : true,  // Set small padding for entries in sidebar
+"sunrise_sidebar_big_padding"             : true,  // Set big padding for entries sidebar
+"sunrise_tabs_font_small"                 : true,  // Set small font for tab
+"sunrise_tabs_font_normal"                : true,  // Set normal font for tab
+"sunrise_tabs_font_large"                 : true,  // Set big font for tab
