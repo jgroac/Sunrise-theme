@@ -10,7 +10,7 @@ Screenshot
 
 Manual installation
 -----------------------
-1. Download the latest release, extract and rename the directory to "Material Theme".
+1. Download the latest release, extract and rename the directory to "Sunrise".
 
 2. Move the directory inside your sublime Packages directory. (Preferences > Browse packages...)
 
