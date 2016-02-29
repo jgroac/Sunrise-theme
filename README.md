@@ -21,7 +21,8 @@ Activate the theme with the following preferences at (Preferences > Setting - Us
 
 ```
 "theme": "Sunrise.sublime-theme",
-"color_scheme":"Packages/Sunrise/Schemes/Sunrise.tmTheme",```
+"color_scheme":"Packages/Sunrise/Schemes/Sunrise.tmTheme",
+```
 
 
 Note : Restart Sublime Text after activating the theme.
