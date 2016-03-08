@@ -10,7 +10,7 @@ Screenshot
 
 Manual installation
 -----------------------
-1. Download the latest release, extract and rename the directory to "Sunrise".
+1. Download the latest release, extract and rename the directory to "Sunrise Theme".
 
 2. Move the directory inside your sublime Packages directory. (Preferences > Browse packages...)
 
@@ -21,7 +21,7 @@ Activate the theme with the following preferences at (Preferences > Setting - Us
 
 ```
 "theme": "Sunrise.sublime-theme",
-"color_scheme":"Packages/Sunrise/Schemes/Sunrise.tmTheme",
+"color_scheme":"Packages/Sunrise Theme/Scheme/Sunrise.tmTheme",
 ```
 
 
