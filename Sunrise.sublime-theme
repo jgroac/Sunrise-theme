@@ -57,11 +57,11 @@
         "class": "tab_close_button",
         "content_margin": 0,
         // Normal
-        "layer0.texture": "Sunrise/Main/light_x.png",
+        "layer0.texture": "Sunrise Theme/Main/light_x.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         // Hover
-        "layer1.texture": "Sunrise/Main/light_x_hover.png",
+        "layer1.texture": "Sunrise Theme/Main/light_x_hover.png",
         "layer1.opacity": 0
     },
     {
@@ -73,7 +73,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "Sunrise/Main/dirty_circle.png",
+        "layer0.texture": "Sunrise Theme/Main/dirty_circle.png",
         "layer0.opacity": 1,
         "layer1.opacity": 0
     },
@@ -96,17 +96,17 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["file_light"]}],
         // Normal
-        "layer0.texture": "Sunrise/Main/dark_x.png",
+        "layer0.texture": "Sunrise Theme/Main/dark_x.png",
         "layer0.opacity": 1,
         // Hover
-        "layer1.texture": "Sunrise/Main/dark_x_hover.png",
+        "layer1.texture": "Sunrise Theme/Main/dark_x_hover.png",
         "layer1.opacity": 0
     },
     // Light dirty normal
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "file_light"]}],
-        "layer0.texture": "Sunrise/Main/dirty_circle.png",
+        "layer0.texture": "Sunrise Theme/Main/dirty_circle.png",
         "layer0.opacity": 1,
         "layer1.opacity": 0
     },
@@ -131,16 +131,16 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["file_medium_dark"]}],
         // Normal
-        "layer0.texture": "Sunrise/Main/med_x.png",
+        "layer0.texture": "Sunrise Theme/Main/med_x.png",
         "layer0.opacity": 1,
         // Hover
-        "layer1.texture": "Sunrise/Main/med_x_hover.png",
+        "layer1.texture": "Sunrise Theme/Main/med_x_hover.png",
         "layer1.opacity": 0
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "file_medium_dark"]}],
-        "layer0.texture": "Sunrise/Main/dirty_med_circle.png",
+        "layer0.texture": "Sunrise Theme/Main/dirty_med_circle.png",
         "layer0.opacity": 1,
         "layer1.opacity": 0
     },
@@ -155,7 +155,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "file_medium"]}],
-        "layer0.texture": "Sunrise/Main/dirty_circle.png",
+        "layer0.texture": "Sunrise Theme/Main/dirty_circle.png",
         "layer0.opacity": 1,
         "layer1.opacity": 0
     },
@@ -188,17 +188,17 @@
     },
     {
         "class": "tab_label",
-        "settings": ["sunrise_tabs_font_small"],
+        "settings": ["sunrise Theme_tabs_font_small"],
         "font.size": 10.0
     },
     {
         "class": "tab_label",
-        "settings": ["sunrise_tabs_font_normal"],
+        "settings": ["sunrise Theme_tabs_font_normal"],
         "font.size": 12.0
     },
     {
         "class": "tab_label",
-        "settings": ["sunrise_tabs_font_large"],
+        "settings": ["sunrise Theme_tabs_font_large"],
         "font.size": 14.0
     },
 
@@ -211,39 +211,39 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [10,8],
-        "layer0.texture": "Sunrise/Main/tabset-list-hover@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/tabset-list-hover@2x.png",
         "layer0.opacity": 1
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        "layer0.texture": "Sunrise/Main/tabset-list@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/tabset-list@2x.png",
         "layer0.opacity": 1
     },
     // Tab scroll left
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Sunrise/Main/tabset-left-hover@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/tabset-left-hover@2x.png",
         "layer0.opacity": 1
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
-        "layer0.texture": "Sunrise/Main/tabset-left@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/tabset-left@2x.png",
         "layer0.opacity": 1
     },
     // Tab scroll right
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Sunrise/Main/tabset-right-hover@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/tabset-right-hover@2x.png",
         "layer0.opacity": 1
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
-        "layer0.texture": "Sunrise/Main/tabset-right@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/tabset-right@2x.png",
         "layer0.opacity": 1
     },
 
@@ -253,7 +253,7 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Sunrise/Main/fold-closed@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/fold-closed@2x.png",
         "layer0.opacity": 0.45,
         "layer0.inner_margin": 0,
         "content_margin": 8
@@ -266,7 +266,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Sunrise/Main/fold-open@2x.png"
+        "layer0.texture": "Sunrise Theme/Main/fold-open@2x.png"
     },
     {
         "class": "fold_button_control",
@@ -527,12 +527,12 @@
     // options sidebar
     {
         "class": "sidebar_tree",
-        "settings": ["sunrise_sidebar_small_padding"],
+        "settings": ["sunrise Theme_sidebar_small_padding"],
         "row_padding": [8,3]
     },
     {
         "class": "sidebar_tree",
-        "settings": ["sunrise_sidebar_big_padding"],
+        "settings": ["sunrise Theme_sidebar_big_padding"],
         "row_padding": [8,10]
     },
 
@@ -606,7 +606,7 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Sunrise/Main/light_x_hover.png",
+        "layer0.texture": "Sunrise Theme/Main/light_x_hover.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "content_margin": 8
@@ -620,32 +620,32 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Sunrise/Main/dirty_med_circle.png",
+        "layer0.texture": "Sunrise Theme/Main/dirty_med_circle.png",
         "layer0.opacity": 1
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Sunrise/Main/dirty_med_circle.png"
+        "layer0.texture": "Sunrise Theme/Main/dirty_med_circle.png"
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "Sunrise/Main/dirty_med_circle.png",
+        "layer0.texture": "Sunrise Theme/Main/dirty_med_circle.png",
         "layer0.opacity": 1
     },
     // Sidebar file close hover
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Sunrise/Main/light_x_hover.png"
+        "layer0.texture": "Sunrise Theme/Main/light_x_hover.png"
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row","attributes": ["hover","selected"]}],
-        "layer0.texture": "Sunrise/Main/light_x_hover.png",
+        "layer0.texture": "Sunrise Theme/Main/light_x_hover.png",
         "layer0.opacity": 1
     },
 
@@ -673,7 +673,7 @@
     // Sidebar folder closed
     {
         "class": "icon_folder",
-        "layer0.texture": "Sunrise/Main/folder@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/folder@2x.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "content_margin": [7,0]
@@ -682,7 +682,7 @@
     {
         "class": "icon_folder",
         "parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "Sunrise/Main/folder_open@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/folder_open@2x.png",
         "layer0.inner_margin": -5,
         "layer0.opacity": 1,
         "content_margin": [7,0],
@@ -694,14 +694,14 @@
         {
             "keyframes":
             [
-                "Sunrise/Main/spinner7.png",
-                "Sunrise/Main/spinner6.png",
-                "Sunrise/Main/spinner5.png",
-                "Sunrise/Main/spinner4.png",
-                "Sunrise/Main/spinner3.png",
-                "Sunrise/Main/spinner2.png",
-                "Sunrise/Main/spinner1.png",
-                "Sunrise/Main/spinner.png"
+                "Sunrise Theme/Main/spinner7.png",
+                "Sunrise Theme/Main/spinner6.png",
+                "Sunrise Theme/Main/spinner5.png",
+                "Sunrise Theme/Main/spinner4.png",
+                "Sunrise Theme/Main/spinner3.png",
+                "Sunrise Theme/Main/spinner2.png",
+                "Sunrise Theme/Main/spinner1.png",
+                "Sunrise Theme/Main/spinner.png"
             ],
             "loop": true,
             "frame_time": 0.075
@@ -752,13 +752,13 @@
     {
         "class": "dropdown_button_control",
         "content_margin": [7,6],
-        "layer0.texture": "Sunrise/Main/text-field-list.png",
+        "layer0.texture": "Sunrise Theme/Main/text-field-list.png",
         "layer0.opacity": 1
     },
     {
         "class": "dropdown_button_control",
         "attributes": ["hover"],
-        "layer0.texture": "Sunrise/Main/text-field-list-hover.png"
+        "layer0.texture": "Sunrise Theme/Main/text-field-list-hover.png"
     },
 
 //========================================================
@@ -932,7 +932,7 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Sunrise/Main/regex@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/regex@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -950,7 +950,7 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Sunrise/Main/casesens@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/casesens@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -968,7 +968,7 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Sunrise/Main/wholeword@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/wholeword@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -991,7 +991,7 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Sunrise/Main/context@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/context@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1009,7 +1009,7 @@
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Sunrise/Main/buffer@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/buffer@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1032,7 +1032,7 @@
     // Reverse search direction button (ST2 only)
     {
         "class": "icon_reverse",
-        "layer0.texture": "Sunrise/Main/reverse@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/reverse@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1050,7 +1050,7 @@
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Sunrise/Main/wrap@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/wrap@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1068,7 +1068,7 @@
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Sunrise/Main/selection@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/selection@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1091,7 +1091,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Sunrise/Main/casesens@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/casesens@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1114,7 +1114,7 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Sunrise/Main/highlight@2x.png",
+        "layer0.texture": "Sunrise Theme/Main/highlight@2x.png",
         "layer0.tint": [96,125,139],
         "layer0.opacity": 1,
         "content_margin": 8
