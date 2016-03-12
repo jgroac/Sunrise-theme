@@ -8,6 +8,16 @@ Screenshot
 
 
 
+Quick installation
+-----------------------
+You can install this theme through the Package Control.
+
+1. Press "ctrl + shift + p" (Windows, Linux) or "cmd + shift + p" (OS X) to access Package Control
+
+2. Type "install Package" press enter
+
+3. Search for "Sunrise Theme" press enter
+
 Manual installation
 -----------------------
 1. Download the latest release, extract and rename the directory to "Sunrise Theme".
