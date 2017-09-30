@@ -676,7 +676,7 @@
         "layer0.texture": "Sunrise Theme/Main/folder@2x.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "content_margin": [7,0]
+        "content_margin": 8,
     },
     // Sidebar folder opened
     {
@@ -685,7 +685,7 @@
         "layer0.texture": "Sunrise Theme/Main/folder_open@2x.png",
         "layer0.inner_margin": -5,
         "layer0.opacity": 1,
-        "content_margin": [7,0],
+        "content_margin": 8,
     },
     // Icon folder loading
     {
