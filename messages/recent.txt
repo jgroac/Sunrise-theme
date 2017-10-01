@@ -1,0 +1,11 @@
+#### Sunrise Theme for Sublime Text 3
+
+## Version 2.0
+
+📣 **FEAT**:
+* We added a new theme variation, if you wanna activate now, Add the following to your user preferences:
+
+{
+  "theme": "Sunrise-Neo.sublime-theme",
+  "color_scheme":"Packages/Sunrise Theme/Scheme/Sunrise-Neo.tmTheme",
+} 

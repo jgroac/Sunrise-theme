@@ -11,6 +11,12 @@ Add the following to your Settings - User file and restart Sublime Text after:
   "color_scheme":"Packages/Sunrise Theme/Scheme/Sunrise.tmTheme",
 }
 
+or for Sunrise Neo variation
+
+{
+  "theme": "Sunrise-Neo.sublime-theme",
+  "color_scheme":"Packages/Sunrise Theme/Scheme/Sunrise-Neo.tmTheme",
+}
 ==============================================================================================
 
 Other available theme options:

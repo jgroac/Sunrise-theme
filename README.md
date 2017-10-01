@@ -4,7 +4,14 @@ This theme brings minimal Solarized UI and is based on Seti_UI theme. If you pro
 
 Screenshot
 --------------
-![alt text](+res/screenshot.png "Sunrise Theme")
+
+### Sunrise
+![alt text](+res/screenshot-default.png "Sunrise Theme")
+
+
+
+### Sunrise Neo
+![alt text](+res/screenshot-neo.png "Sunrise Neo Theme")
 
 
 
@@ -29,9 +36,18 @@ Activate the theme
 Activate the theme with the following preferences at (Preferences > Setting - User):
 
 
+For Sunrise theme:
+
 ```
 "theme": "Sunrise.sublime-theme",
 "color_scheme":"Packages/Sunrise Theme/Scheme/Sunrise.tmTheme",
+```
+
+For Sunrise Neo theme:
+
+```
+"theme": "Sunrise-Neo.sublime-theme",
+"color_scheme":"Packages/Sunrise Theme/Scheme/Sunrise-Neo.tmTheme",
 ```
 
 
